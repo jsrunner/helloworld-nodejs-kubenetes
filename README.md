@@ -1,13 +1,10 @@
-# Minikube commands
-
 ## Nodejs helloworld app using Kubernetes
 
-```eval $(minikube docker-env)```
 ```eval $(minikube docker-env)```
 
 Later, when you no longer wish to use the Minikube host, you can undo this change by running eval $(minikube docker-env -u).
 
-```eval $(minikube docker-env)``
+```eval $(minikube docker-env)```
 
 To start first application,
 
