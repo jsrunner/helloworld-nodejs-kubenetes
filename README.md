@@ -30,13 +30,15 @@ To view cluster events,
 
 View the kubectl configuration:
 
-```kubectl config view
+``` 
+kubectl config view
 
 kubectl expose deployment hello-node --type=LoadBalancer
 
 kubectl get services
 
-minikube service hello-node```
+minikube service hello-node
+```
 
 This automatically opens up a browser window using a local IP address that serves your app and shows the “Hello World” message.
 
